@@ -26,7 +26,7 @@ import {
   FormControl,
   OutlinedInput,
 } from "@mui/material"; 
- import { Edit, info } from "@mui/icons-material";
+ import { Edit, Delete, Info} from "@mui/icons-material";
  export default function Fundaciones() {
   const [fundaciones, setFundaciones] = useState([]);
   const [comandos, setComandos] = useState([]);
