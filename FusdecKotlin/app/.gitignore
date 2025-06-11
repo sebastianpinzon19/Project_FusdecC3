@@ -1,7 +1,0 @@
-/build
-local.properties
-.gitignore
-# Archivos de configuración sensibles
-application.properties
-application-*.properties  # Opcional: para excluir todos los perfiles
-/local.properties        # También excluye este si existe

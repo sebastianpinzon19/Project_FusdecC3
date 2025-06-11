@@ -2,7 +2,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 
-import Home from "../pages/home/Home";
+import Home from "../pages/home/home";
 import Cursos from "../pages/cursos/Cursos";
 import Usuarios from "../pages/usuarios/Usuarios";
 import Ediciones from "../pages/ediciones/Ediciones";

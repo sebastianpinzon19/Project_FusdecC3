@@ -13,7 +13,7 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import Box from "@mui/material/Box";
 import { useNavigate } from "react-router-dom";
-import './navbar.css';
+import './navBar.css';
 import normalizeText from "../../utils/textUtils";
 import logoFusdec from "../../assets/images/logoFu.png";
 import obtenerRutasPermitidas from "../../routes/rutasPermitidas";

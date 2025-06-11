@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: fusdec-backend
+    env: java
+    buildCommand: ./mvnw clean package -DskipTests
+    startCommand: java -jar target/kotlinsql-0.0.1-SNAPSHOT.jar
+    envVars:
+      - key: SPRING_PROFILES_ACTIVE
+        value: prod
+      - key: JAVA_VERSION
+        value: 17
+      - key: PORT
+        value: 8080
+
+databases:
+  - name: fusdec-db
+    databaseName: fusdec
+    user: fusdec_user
+    plan: free 

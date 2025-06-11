@@ -19,7 +19,7 @@ import { School } from "@mui/icons-material";
 import jsPDF from "jspdf";
 import encabezadoCertificado from "../../assets/images/encabezadocertificado.png";
 import firmaPresenteCertificado from "../../assets/images/firmapresidentecertificado.png";
-import "./Certificados.css";
+import "./certificados.css";
 
 const Certificados = () => {
   const [formValues, setFormValues] = useState({
